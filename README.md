@@ -1,2 +1,2 @@
 # Partially-Stochastic-MCTS-for-IM.py
-Partially Stochastic MCTS for Influence Maximization (IM)
+Code implementation of my master's thesis: "Optimal Network Diffusion Strategies: An MCTS approach".
