@@ -184,7 +184,7 @@ class Node:
 
     def add_hidden_child(self):
         for i in range(4):
-            combinations = list(itertools.combinations(self.unactive_nodes, i)) # We still have to solve one big isue as right now this is only return lists of three unactive nodes, hence the algortihm will not learn
+            combinations = list(itertools.combinations(self.unactive_nodes, i))
             for combination in combinations:
                new_active_nodes = copy.deepcopy(self.active_nodes) + list(combination)
                new_unactive_nodes = copy.deepcopy(self.unactive_nodes)
