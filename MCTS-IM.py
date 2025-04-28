@@ -14,7 +14,7 @@ import time
 # Reading the Product Space data #
 
 g = nx.read_weighted_edgelist(
-   r"C:\Users\Pau Vila\OneDrive - KU Leuven\Desktop\KU Leuven\Master Thesis\Reduced_example_adjacency_list.csv", delimiter=",",
+   path, delimiter=",",
    nodetype=int, create_using=nx.Graph(), )
 weight = nx.get_edge_attributes(g, 'weight')
 
